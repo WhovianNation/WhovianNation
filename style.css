@@ -1,0 +1,146 @@
+body {
+    background-color: #000000;
+    background-image: url("https://pbs.twimg.com/profile_images/1073148471794782209/wbQ6wCUh_400x400.jpg");
+    background-repeat: no-repeat;
+    background-position: 1% 85%;
+    background-attachment: fixed;
+    font-family: serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 35px;
+    color: #6495ed;
+}
+
+ul {
+    font-size: 25px;
+}
+
+h5 {
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.green {
+    color: #7fff00;
+}
+
+.gold {
+    color: #daa520;
+}
+
+.teal {
+    color: #008b8b;
+}
+
+.sky-blue {
+    color: #87cefa;
+}
+
+.red {
+    color: #a52a2a;
+}
+
+div#content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.space {
+	margin-right: 10px;
+}
+
+div#member {
+	text-align: center;
+}
+
+div#doctors {
+    max-width: 1200px;
+}
+
+div#doctors ol {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    grid-column-gap: 120px;
+    grid-row-gap: 40px;
+}
+
+div#doctors ol li.doctor {
+    list-style: none;
+}
+
+div#doctors ol li.doctor .companions-title {
+    font-size: 22px;
+}
+
+div#companions {
+    max-width: 1200px;
+}
+
+div#companions ol {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    grid-column-gap: 120px;
+    grid-row-gap: 40px;
+}
+
+div#companions ol li.companions {
+    list-style: none;
+}
+
+div#companions ol li.companions .companions-title {
+    font-size: 22px;
+}
+
+div#Villians {
+    max-width: 1200px;
+}
+
+div#Villians ol {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    grid-column-gap: 120px;
+    grid-row-gap: 40px;
+}
+
+div#Villians ol li.Villians {
+    list-style: none;
+}
+
+div#Villians ol li.Villians .villians-title {
+    font-size: 22px;
+}
+
+ul#personal-links {
+	display:  flex;
+	grid-column-gap: 40px;
+}
+
+ul#personal-links li {
+    font-size: 22px;
+    list-style: none;
+    justify-content: center;
+}
