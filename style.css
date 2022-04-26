@@ -64,8 +64,13 @@ div#content {
 	margin-right: 10px;
 }
 
-div#member {
+div.member {
 	text-align: center;
+    margin-bottom: 10px;
+}
+
+div.acronym {
+    margin-top: 10px;
 }
 
 div#doctors {
